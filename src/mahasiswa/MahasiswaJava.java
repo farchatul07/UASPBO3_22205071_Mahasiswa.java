@@ -97,10 +97,10 @@ class MahasiswaLama extends Mahasiswa {
 public class MahasiswaJava{
 
     public static void main(String[] args) {
-        Mahasiswa baru = new MahasiswaBaru("Farchatul", 20, 22205078);
+        Mahasiswa baru = new MahasiswaBaru("Farchatul", 19, 22205071);
         baru.displayInfo();
 
-        Mahasiswa lama = new MahasiswaLama("Khirzah", 21, 2022);
+        Mahasiswa lama = new MahasiswaLama("Hudayah", 19, 22205071);
         lama.displayInfo();
     }
 }
